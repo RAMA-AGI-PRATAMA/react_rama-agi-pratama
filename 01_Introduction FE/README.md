@@ -7,3 +7,5 @@ Poin-poin dari materi Introduction FE adalah sebagai berikut:
 2. Internet merupakan singkatan atau kependekan dari international network atau sering juga disebut sebagai jaringan komputer yang sangat besar.
 
 3. Tiga bahasa pemrograman yang sering digunakan oleh seorang front-end yaitu HTML, CSS, dan Javascript. Version Control yang sering digunakan yaitu Git dan Github. Untuk Package Manager nya ada dua yaitu npm dan yarn.
+
+Berikut link google docs tugas Introduction FE : https://docs.google.com/document/d/13ftI-h-_W0b5qMWE8pssuzbZBqCwlJG17bgoGnHeqSI/edit?usp=sharing
