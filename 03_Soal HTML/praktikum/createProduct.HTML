@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soal HTML | Create Product</title>
+<style>
+  label, input, button{
+    margin-top: 15px;
+  }
+</style>
+</head>
+<body>
+  <h1>Create Product</h1>
+  <h2>Detail Product</h2>
+  <form>
+    <label for="name">Product name :</label><br>
+    <input type="text" id="name" required="required"><br><br>
+    <label for="category">Product Category :</label><br><br>
+    <select name="category" id="category">
+      <option value="electronics">Electronics</option>
+      <option value="furniture">Furniture</option>
+      <option value="clothing">Clothing</option>
+      <option value="sport">Sport</option>
+      <option value="gadget">Gadget</option>
+    </select>
+    <br><br>
+    <label for="freshness"> Product Freshness :</label><br>
+      <input type="radio" id="brandnew" value="brandnew">
+      <label for="brandnew">Brand New</label> <br>
+      <input type="radio" id="secondhand" value="secondhand">
+      <label for="secondhand">Second Hank</label> <br>
+      <input type="radio" id="refurbished" value="refurbished">
+      <label for="refurbished">Refurbished</label> <br>
+      <label for="image">Image of Product</label>
+      <input type="file" name="image" id="image"><br><br>
+      <label for="additional">Additional Description</label><br>
+      <textarea name="additional" id="additional" cols="40" rows="10"></textarea><br><br>
+      <label for="price">Product price :</label><br>
+      <label for="currency">$</label> <input type="number" min="0" max="100000" name="price" id="price" required="required"> <br>
+      <button>Submit</button>
+  </form>
+</body>
+</html>
