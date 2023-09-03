@@ -2,7 +2,7 @@
 
 Poin-poin dari materi Bootstrap adalah sebagai berikut:
 
-1. Apa itu Framework, adalah sekumpulan aturan kode yang bisa digunakan untuk mempermudah dalam membuat tampilan website. Kenapa pilih Framework Bootstrap karena gratis serta mudah dipejari cepat dan mendukung responsif.
+1. Apa itu Framework, adalah sekumpulan aturan kode yang bisa digunakan untuk mempermudah dalam membuat tampilan sebuah website. Kenapa pilih Framework Bootstrap karena gratis serta mudah dipejari cepat dan mendukung responsif.
 
 2. Mengetahui bagaimana cara menggunakan Bootstrap dengan beberapa class yang ada pada Bootstrap diantaranya Container, Row, Column, dan Button.
 
