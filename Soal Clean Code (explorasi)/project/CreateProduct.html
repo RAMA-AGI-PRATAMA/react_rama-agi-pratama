@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soal Clean Code (explorasi)</title>
+  <link rel="stylesheet" href="style.css">
+<style>
+  label, input, button{
+    margin-top: 15px;
+  }
+</style>
+</head>
+<body>
+  <h1>Create Product</h1>
+  <h2>Detail Product</h2>
+  <form id="productForm">
+    <label for="productName">Product name :</label><br>
+    <input type="text" id="productName" name="productName" required="required" min="6" max="500">
+    <span class="error" id="productNameError"></span><br><br>
+    <label for="category">Product Category :</label><br><br>
+    <select name="category" id="category">
+      <option value="Electronics">Electronics</option>
+      <option value="Furniture">Furniture</option>
+      <option value="Clothing">Clothing</option>
+      <option value="Sport">Sport</option>
+      <option value="Gadget">Gadget</option>
+    </select>
+    <br><br>
+    <label for="freshness"> Product Freshness :</label><br>
+        <input type="radio" id="brandnew" name="freshness" value="Brandnew">
+        <label for="brandnew">Brand New</label> <br>
+        <input type="radio" id="secondhand" name="freshness" value="Secondhand">
+        <label for="secondhand">Second Hank</label> <br>
+        <input type="radio" id="refurbished" name="freshness" value="Refurbished">
+        <label for="refurbished">Refurbished</label> <br>
+        <label for="image">Image of Product</label>
+        <input type="file" name="image" id="image"><br><br>
+        <label for="message">Additional Description</label><br>
+        <textarea id="message" name="message" cols="40" rows="10"></textarea><br><br>
+        <label for="productPrice">Product price :</label><br>
+        <label for="currency">$</label> <input type="number" min="0" max="100000" name="productPrice" id="productPrice" required="required"> 
+        <span class="error" id="productPriceError"></span><br>
+        <button type="button" id="submitBtn" onclick="tambahData()" disabled>Submit</button>
+        <button type="button" onclick="deleteData()">Delete</button>
+        <button type="button" onclick="searchData()">Search</button>
+  </form>
+  <h1>List Product</h1>
+  <table id="dataTable">
+    <thead>
+        <tr>
+            <th>No</th>
+            <th>Product Name</th>
+            <th>Product Category</th>
+            <th>Product Freshness</th>
+            <th>Image of Product</th>
+            <th>Additional Description</th>
+            <th>Product Price</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+  <script src="script.js"></script>
+</body>
+</html>
