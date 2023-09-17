@@ -1,0 +1,156 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+:root {
+  --none-color: #00000000;
+  --blue-color: rgba(13, 110, 253, 1);
+  --white-color: white;
+  --black-color: rgb(0, 0, 0);
+  --reguler: 400;
+  --medium: 500;
+  --semi-bold: 600;
+  --bold: 700;
+}
+
+.active button.btn.btn-primary {
+  background-color: var(--blue-color);
+  border: 0;
+  color: var(--white-color);
+  font-weight: var(--semi-bold);
+}
+
+.btn.btn-primary {
+  background-color: var(--none-color);
+  border: 0;
+  color: var(--blue-color);
+}
+
+.btn.btn-primary:hover {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+}
+
+.hero-logo {
+  margin-top: 50px;
+}
+
+.name{
+  width: 40%;
+}
+
+.form-control {
+  width: 30px;
+}
+
+.hero.container{
+  width: 60%;
+}
+
+.hero-product button.btn.btn-secondary{
+  width: 270px;
+  text-align: left;
+  background-color: var(--none-color);
+  color: var(--black-color);
+}
+
+.hero-product button.btn.btn-secondary span{
+  margin-right: 170px;
+}
+
+.hero-file{
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(13, 110, 253, 1);
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  width: 240px;
+}
+
+label.btn.btn-primary{
+  background-color: var(--blue-color);
+  color: var(--white-color);
+}
+
+.hero-file p{
+  color: var(--blue-color);
+  padding-left: 10px;
+  margin: 0;
+}
+
+textarea.form-control{
+  width: 60%;
+  height: 150px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.price-form {
+  display: flex;
+  text-align: center;
+  border: 1px solid black;
+  width: 60%;
+  border-radius: 4px;
+}
+
+.price-form p {
+  margin: 0;
+  padding: 0 8px;
+}
+
+.price-form input{
+  border: none;
+  width: 100%;
+}
+
+.hero-product button.btn.btn-primary{
+  margin-top: 50px;
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  width: 60%;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
