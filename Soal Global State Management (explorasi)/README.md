@@ -10,4 +10,4 @@ Poin-poin dari materi Global State Management and Data fetching adalah sebagai b
 
 3. Redux adalah sebuah perpustakaan manajemen keadaan yang populer digunakan dalam aplikasi berbasis React. Redux memiliki beberapa pustaka dan alat yang dapat membantu dalam pengembangan dan manajemen keadaan aplikasi. Berikut adalah beberapa pustaka dan alat yang umum digunakan bersama Redux:
    - Redux Toolkit adalah pustaka resmi yang dirancang untuk mempermudah pengembangan dengan Redux. Ini menyediakan utilitas dan pola yang sangat membantu dalam mendefinisikan tindakan (actions), pengurangan (reducers), dan toko (store).
-   - React-Redux: Ini adalah perpustakaan yang memudahkan integrasi antara Redux dan React. Dengan React-Redux, Anda dapat menghubungkan komponen React ke toko Redux sehingga komponen dapat mengakses keadaan dan tindakan Redux dengan mudah.
+   - React-Redux adalah perpustakaan yang memudahkan integrasi antara Redux dan React. Dengan React-Redux, Anda dapat menghubungkan komponen React ke toko Redux sehingga komponen dapat mengakses keadaan dan tindakan Redux dengan mudah.
