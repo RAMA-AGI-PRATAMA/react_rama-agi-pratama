@@ -10,13 +10,11 @@ Poin-poin dari materi CSS adalah sebagai berikut:
    - CSS Inline, ini melibatkan penambahan gaya langsung di dalam elemen HTML menggunakan tag <style> di bagian <head> atau <body>. Ini memungkinkan definisi gaya yang spesifik untuk elemen tertentu dalam halaman.
   
 4. Menerapkan syntax yang ada di CSS serta styling CSS.
-   Syntax Dasar CSS :
    - Selector
    - Properti
    - Nilai
    - Selektor Grup
    - Selektor ID dan Class
-   Syntax CSS di HTML:
    - Penyisipan Langsung
    - Pemisahan Eksternal
    - Penggunaan Class dan ID
